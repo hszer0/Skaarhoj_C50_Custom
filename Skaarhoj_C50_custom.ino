@@ -170,7 +170,7 @@ void setButtonColors()  {
 
   // Setting colors of the command buttons:
   cmdSelect.setButtonColor(1, AtemSwitcher.getTransitionPosition()>0 ? 2 : 5);    // Auto button
-  cmdSelect.setButtonColor(3, AtemSwitcher.getFadeToBlackState()>0 ? 2 : 5);     // Ftb button
+  cmdSelect.setButtonColor(3, AtemSwitcher.getFadeToBlackState()>0 ? 2 : 5);     // Ftb button (moet nog knipperen zolang geen rood lampje brandt)
   cmdSelect.setButtonColor(7, AtemSwitcher.getDownstreamKeyerStatus(1) ? 4 : 5);    // DSK1 button
 
   //Tie
